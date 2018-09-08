@@ -5,6 +5,9 @@
  * Date: 2018-07-17
  * Time: 10:50
  */
+
+
+
 namespace app\index\controller;
 use think\Controller;
 class Index extends Common
@@ -21,5 +24,9 @@ class Index extends Common
 
 
         return view();
+    }
+    public function aaa()
+    {
+    	echo 'aaaa';
     }
 }
