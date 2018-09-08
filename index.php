@@ -29,4 +29,8 @@ class Index extends Common
     {
     	echo 'aaaabbbb';
     }
+    public function new()
+    {
+    	echo 'new'
+    }
 }
