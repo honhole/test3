@@ -35,5 +35,10 @@ class Index extends Common
     public function new()
     {
     	echo 'new'
+    	echo 'git stash';
+    }
+    public function new2()
+    {
+    	echo 'news2';
     }
 }
