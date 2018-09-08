@@ -27,6 +27,6 @@ class Index extends Common
     }
     public function aaa()
     {
-    	echo 'aaaa';
+    	echo 'aaaabbbb';
     }
 }
